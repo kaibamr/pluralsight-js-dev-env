@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 87550458,
+      "firstName": "Darian",
+      "lastName": "Bayer",
+      "email": "Johnathan22@gmail.com"
+    },
+    {
+      "id": 41918892,
+      "firstName": "Guido",
+      "lastName": "Heidenreich",
+      "email": "Zakary10@yahoo.com"
+    },
+    {
+      "id": 53268979,
+      "firstName": "Erick",
+      "lastName": "Senger",
+      "email": "Marilou.Bailey@hotmail.com"
+    }
+  ]
+}
