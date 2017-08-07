@@ -9,11 +9,10 @@
 import jsf from 'json-schema-faker';
 import {schema} from './mockDataSchema';
 import fs from 'fs';
-import chalk from 'chalk'; //color text in console
+import chalk from 'chalk';
 
-const json = JSON.stringify(jsf(schema)); //generating data by looking on the schema file and converting it to JSON string
+const json = JSON.stringify(jsf(schema));
 
-//using node FS to write data into a db.json file.
 fs.writeFile("./src/api/db.json", json, function (err) {
   if (err) {
     return console.log(chalk.red(err));
